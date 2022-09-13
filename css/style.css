@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1999px) {
+    body {
+        margin-right: -10px;
+    }
+    
+}

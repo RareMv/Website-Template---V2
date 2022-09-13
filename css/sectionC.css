@@ -1,0 +1,155 @@
+
+.overlay-content {
+    background-image: url(../images/sectionC/Group192.png);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay-content img {
+    max-height: 960px;
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    z-index: 0;
+    bottom: -19px;
+}
+
+.image-container:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 105px);
+    background-color: #CCCCCC;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    z-index: -1;
+}
+
+.text-container {
+    background-color: #F25C05;
+    opacity: 90px;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 22px;
+    z-index: 0;
+}
+
+.text-container #Text2 {
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    font-family: 'SF Pro Display Bold';
+}
+
+.text-container p:first-of-type {
+    height: 14px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+}
+
+.quote-marks {
+    width: 116px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+/* .learn-section .left-column {
+    padding-top: 52px;
+    padding-bottom: 172px;
+} */
+
+.learn-section h2 {
+    font-size: 36px;
+    margin-bottom: 48px;
+    font-family: 'SF Pro Display';
+    font-weight: 700 bold;
+    font-style: normal;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+
+.learn-section .left-column p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.learn-section p {
+    left: 215px;
+    top: 462px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+}
+/* Finish-Lady-C */
+
+/* mobil */
+@media (max-width: 767px) {
+
+    /* mobil-start C */
+    .quote-marks{
+        margin: 48px auto 32px auto;
+        text-align: center;
+        display: flex;
+    }
+    .rand1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .learn-section h2{
+        text-align: center;
+        margin: auto;
+    }
+    .learn-section p{
+        text-align: center;
+        margin: auto;
+    }
+    .learn-section{
+        margin: auto;
+    }
+    /* mobil-finish C*/
+}
+
+/* tableta */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* tableta-start C */
+    .rand1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .quote-marks{
+        margin: 52px auto 32px auto;
+        text-align: center;
+        height: auto;
+        display: flex;
+    }
+    .learn-section h2{
+        text-align: center;
+        margin: auto;
+        
+    }
+    .learn-section p{
+        text-align: center;
+        margin: auto;
+    }
+    .overlay-content{
+       margin:0 100px;
+    }
+    /* tableta-finish C */
+}

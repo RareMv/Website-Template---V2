@@ -1,0 +1,125 @@
+/* Section G - Footer Style - START */ 
+
+/* Footer general style  */
+footer{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer Social Style */
+.footer-social{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer Copyright Style  */
+.footer-copyright{
+    margin: 0;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    letter-spacing: 0.015em;
+}
+/* Footer Copyright Privacy link Style  */
+.footer-copyright a{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+}
+/* Footer Logo Style  */
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End footer general style  */
+
+/*Adaptiv pentru Mobile, Tableta, Laptop  */
+
+/* mobil */
+@media (max-width: 767px) {
+/* Start footer mobil style  */
+    footer{
+        display: block;
+        height: 215px;
+        align-items: center;
+        padding: 25px 54px;
+        }
+        div.footer-social{
+        display: flex;
+    }
+    .footer-social img{
+        width: 27px;
+        height: 100%;
+        margin: 0 15px;
+    }
+    .footer-copyright{
+        padding-top: 27px;
+        padding-bottom: 24px;
+    }
+    .footer-logo img{
+        height: 30px;
+        width: auto;
+    }
+    /* End footer mobile style  */
+}
+
+/* tableta */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* Start footer tableta style  */
+    footer{
+        padding: 25px 85px;
+    }
+    .footer-social img{
+        width: 27px;
+        height: 100%;
+        margin: 0 10px;
+    }
+    .footer-logo img{
+        height: 30px;
+        width: auto;
+    }
+    /* End footer tablet style  */
+}
+
+
+/* desktop */
+
+@media (min-width: 1200px) {
+    /* Start footer desktop style  */
+    footer{
+        padding: 25px 64px;
+    }
+
+    .footer-social img{
+        width: 26px;
+        height: 100%;
+        margin: 0 15px;
+    }
+    .footer-logo img{
+        height: 30px;
+        width: auto;
+    } 
+    /* End footer desktop style  */
+   
+}
+
+/* tableta + mobil  */
+@media (max-width: 1199px){
+    
+}
+
+/* Section G - Footer Style - END */

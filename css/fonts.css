@@ -1,0 +1,63 @@
+                            /* FONTS PROIECT FINAL */
+
+/* SF PRO DISPLAY */
+
+@font-face {
+    font-family: "SF Pro Display", "sfprodisplay", "SF Pro Display Regular";
+    src:url(../fonts/sfpro/SF-Pro-Display-Regular.otf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro Display", "sfprodisplay", "SF Pro Display Medium";
+    src:url(../fonts/sfpro/SF-Pro-Display-Medium.otf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SF Pro Display", "sfprodisplay", "SF Pro Display Semibold";
+    src:url(../fonts/sfpro/SF-Pro-Display-Semibold.otf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF Pro Display", "sfprodisplay", "SF Pro Display Bold";
+    src:url(../fonts/sfpro/SF-Pro-Display-Bold.otf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "SF Pro Display", "sfprodisplay", "SF Pro Display Heavy";
+    src:url(../fonts/sfpro/SF-Pro-Display-Heavy.otf) format("truetype");
+    font-weight: 800;
+}
+
+
+
+/* SF PRO TEXT */
+
+@font-face {
+    font-family: "SF Pro Text", "sfproitext", "SF Pro Text Regular";
+    src:url(../fonts/sfpro-text/SF-Pro-Text-Regular.otf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro Text", "sfprotext", "SF Pro Text Semibold";
+    src:url(../fonts/sfpro-text/SF-Pro-Text-Semibold.otf) format("truetype");
+    font-weight: 600;
+}
+
+/* SOFIA PRO */
+
+@font-face {
+    font-family: "Sofia Pro", "sofiapro", "Sofia Pro Light";
+    src:url(../fonts/sofia-pro/Fonts/sofiapro-light.otf) format("truetype");
+    font-weight: 400;
+}
+
+/* @font-face {
+    font-family: "Sofia Pro", "sofiapro", "Sofia Pro Bold";
+    src:url(../fonts/sofia-pro//Fonts/) format("truetype");
+    font-weight: 700;
+} */

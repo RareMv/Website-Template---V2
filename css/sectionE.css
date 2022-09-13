@@ -1,0 +1,119 @@
+/* Section E - Frequently Asked Questions - START */
+
+
+
+.col-lg-6 img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.accordion-item h2{
+font-family: 'SF Pro Display';
+font-weight: 700;
+font-size: 48px;
+text-transform: uppercase;
+}
+.accordion-button{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+}
+.accordion-body{
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: inset 0 -1px 0 white;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+    background-color: green;
+} */
+
+/* Section E - Frequently Asked Questions - END */
+
+/* mobil */
+@media (max-width: 767px){
+    /* SECTION E MOBILE START */
+    .section-e {
+        flex-direction: column-reverse;
+        padding: 60px 11.19vw;
+    }
+
+    .faq-c2 img {
+        /* min-width: 40%; */
+        height: 396px;
+        width: 343px;
+    }
+
+    /* .faq-c1 {
+        padding-left: 16px;
+        padding-right: 16px;
+    } */
+
+    .faq-c2 {
+        padding-bottom: 48px;
+    }
+    /* SECTION E MOBILE END */
+}
+
+/* tableta */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* SECTION E TABLETA START */
+    .section-e {
+        flex-direction: column-reverse;
+        padding: 60px 11.19vw;
+    }
+
+    /* .col-md-12 {
+        padding: 100px;
+    } */
+
+    .faq-c1 {
+        padding-top: 0;
+    }
+
+    .faq-c2 img {
+        height: 433px;
+        width: 375px;
+    }
+
+    .accordion-item h2 {
+        text-align: center;
+    }
+    /* SECTION E TABLETA END */
+
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+    /* SECTION E DESKTOP START */
+    .section-e {
+        display: flex;
+        padding: 60px 11.19vw;
+        justify-content: space-between;
+    }
+
+    .faq-c1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .faq-c2 img {
+        width: 582px;
+        height: 672px;
+        object-fit: contain;
+    }
+
+    .container-e {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .accordion-item h2 {
+        font-family: SF-Pro-Display-Bold;
+    } */
+    /* SECTION E DESKTOP END */
+}
+

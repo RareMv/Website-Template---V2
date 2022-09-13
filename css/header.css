@@ -1,0 +1,190 @@
+
+
+/* Section A - Header - Start - style*/
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 18px 64px;
+    left: 0;
+    width: 100%;
+    /* height: 80px; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    align-items: center;
+}
+
+.navigation-menu ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #666666;
+    padding: 8px;
+    margin: 0 54px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+}
+
+.menu a.active {
+    color: #333333;
+    border-bottom: 2px solid #F25C05;
+    font-family: 'SF Pro Display';
+    font-weight: 800;
+}
+
+.menu a:hover{
+    
+    border-bottom: 2px solid transparent;
+    color: #666666;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+}
+
+.apply-btn {
+    background-color: #F25C05;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 4px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+header img {
+    width: auto;
+    height: 40px;
+}
+
+
+/* desktop */
+@media (min-width: 1200px) {
+    .menu-btn, .mobile-menu {
+        display: none;
+    }
+
+    header {
+        height: 80px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    ul.menu, .apply-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: white;
+        height: 100vh;
+        padding: 15px 24px 50px;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mobile-menu-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button.menu-btn {
+        width: 18px; 
+        height: 12px; 
+        background-image: url("../images/Header/Vector.png");
+        background-size: cover;  
+        border: none;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .close-btn {
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    header img {
+        height: 30px;
+    }
+
+    ul.mobile-menu-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 8px;
+    }
+
+    ul.mobile-menu-list a {
+        color: #666666;
+        text-transform: uppercase;
+        position: relative;
+        padding: 10px 16px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #666666;
+    }
+
+    button.mobile-menu-apply-btn {
+        background-color: #F25C05;
+        color: white;
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        width: 91.4vw;
+        height: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+
+    .mobile-menu-apply-btn a{
+        color: white;
+    }
+
+    .mobile-menu-apply {
+        display: flex;
+        justify-content: center;
+        top: 500px;
+    }
+
+}
+
+
+/* Section A - Header - End - style*/

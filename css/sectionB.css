@@ -1,0 +1,229 @@
+/* Sectiune menu navigation START */
+
+
+
+/* Section B - Academic Excellence - START  */
+.banner {
+  background-image: url(../images/sectionB/Rectangle135.png);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+
+}
+
+.imagine-gri {
+  background-image: url(../images/sectionB/image6.png);
+  /* height: 100%; */
+  background-size: cover;
+}
+
+.texte{
+  padding: 0 70px;
+}
+
+.texte h1{
+  font-size: 64px;
+  font-family: 'SF Pro Display Heavy';
+  font-weight: 800;
+  padding-bottom: 60px;
+  margin: 0;
+}
+
+.texte p{
+  font-family: 'SF Pro Text Regular';
+  font-size: 20px;
+  opacity: 0.7;
+  
+}
+
+.socials{
+  padding-top: 210px;
+  padding-bottom: 60px;
+}
+
+.socials p{
+  font-size: 20px;
+  font-family: 'SF Pro Text Semibold';
+  margin-bottom: 26px;
+}
+
+.social-icons img{
+  width: 32px;
+  height: auto;
+  margin: 0 10px;
+}
+
+/* Section B - Academic Excellence - END */
+
+/* mobil */
+@media (max-width: 767px){
+  /* Section B - Academic Excellence - START  */
+  
+  .banner{
+    display: flex;
+    align-self: flex-end;
+    height: 769px;
+  }
+
+  .imagine-gri {
+    /* height: 60%; */
+    height: 468px;
+  }
+
+  .texte{
+    padding: 0 30px;
+  }
+
+  .texte h1{
+    font-size: 32px;
+    font-family: 'SF Pro Display Heavy';
+    padding-bottom: 24px;
+  }
+  
+  .texte p{
+    font-family: 'SF Pro Text Regular';
+    font-size: 16px;
+    opacity: 0.7;
+  }
+  
+  .socials{
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  
+  .socials p{
+    font-size: 16px;
+    font-family: 'SF Pro Text Semibold';
+    margin-bottom: 18px;
+  }
+  
+  .social-icons img{
+    width: 32px;
+    height: auto;
+    margin: 0 20px;
+  }
+
+  /* Section B - Academic Excellence - END  */
+
+}
+
+/* tableta */
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* Section B - Academic Excellence - START  */
+  .banner {
+    height: 63.6vh;
+
+  }
+  
+  .imagine-gri {
+    margin: 0 26%;
+    height: 100%;
+  }
+
+  .texte{
+    padding: 0 30px;
+  }
+
+  .texte h1{
+    font-size: 32px;
+    font-family: 'SF Pro Display Heavy';
+    padding-bottom: 24px;
+  }
+  
+  .texte p{
+    font-family: 'SF Pro Text Regular';
+    font-size: 16px;
+    opacity: 0.7;
+  }
+  
+  .socials{
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  
+  .socials p{
+    font-size: 16px;
+    font-family: 'SF Pro Text Semibold';
+    margin-bottom: 18px;
+  }
+  
+  .social-icons img{
+    width: 32px;
+    height: auto;
+    margin: 0 20px;
+  }
+
+  /* Section B - Academic Excellence - END  */
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+  /* .menu-btn,
+  .mobile-menu {
+    display: none;
+  } */
+
+  .imagine-gri{
+    margin: 0 33%;
+    height: 100%;
+  }
+
+}
+
+/* Sectiune menu navigation START */
+
+/* @media (max-width: 1199px) {
+  ul.menu,
+  .apply-btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    height: 100vh;
+    padding: 15px 24px 50px;
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
+
+  .mobile-menu-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .close-btn {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+  }
+
+  header img {
+    height: 30px;
+  }
+
+  ul.mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul.mobile-menu-list a {
+    padding: 14px 0;
+    color: #666666;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .menu-btn{
+    background-color: transparent;
+    border: none;
+  }
+} */
+
+/* Sectiune menu navigation END */
